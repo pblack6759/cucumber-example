@@ -1,6 +1,8 @@
+@TWX-4
 Feature: HelloWorld
 
-	Scenario: Run test
+	@TEST_TWX-3
+	Scenario: HelloWorld
 		Given logging is enabled
 		When "Hello, World!" is said to the world
 		Then the world responds with "Hey, Dude!"

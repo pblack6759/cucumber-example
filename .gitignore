@@ -24,3 +24,6 @@ gradle-app.setting
 
 # ignore eclipse project file
 .project
+
+# Cucumber reports folder
+target/
